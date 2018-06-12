@@ -5,6 +5,7 @@
     <div class="col-sm-3 sidenav">
 
      @include('dashboard.sidebar')
+        
     
     </div>
     <div class="col-sm-9 text-left"> 
@@ -12,7 +13,7 @@
         <div class="dashboard" id="el-dashboard">
             <div class="top hide">
                 <div class="container-fluid">
-                    <h1 class="text-center page-header pull-left dashboard-title">My SALT Dashboard</h1>
+                    <h1 class="text-center page-header pull-left dashboard-title">My  Dashboard</h1>
                 </div>
                 <div class="container dash-confirm-prompt">
                     <h4><!-- react-text: 2440 -->*In order to withdraw SALT, your<!-- /react-text --><!-- react-text: 2441 --> <!-- /react-text -->
@@ -29,7 +30,7 @@
                                     <div class="col-md-4">
                                         <div class="panel panel-default tier-plan">
                                             <div class="panel-heading">
-                                                <h3>Base</h3>
+                                                <h3>Based</h3>
                                             </div>
                                             <div class="panel-body">
                                                 <h2>Borrow up to $10,000</h2>

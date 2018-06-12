@@ -18,6 +18,4 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/dashboard', 'HomeController@index')->name('dashboard');
-Route::get('/home', function () {
-    return view('dashboard.master');
-});
+Route::get('/register/stage2', 'UserPersonalDataController@create');
